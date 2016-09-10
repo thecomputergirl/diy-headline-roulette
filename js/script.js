@@ -3,9 +3,9 @@ $(function(){
 
     // YOU MUST EDIT THIS SECTION
     // You must supply a Trove API key
-    var troveAPIKey = '';
+    var troveAPIKey = 'hnar03ads42hvp05';
     // Either provide full API query here or include options below
-    var apiQuery = '';
+    var apiQuery = 'http://api.trove.nla.gov.au/newspaper/result?key=hnar03ads42hvp05q=%22town+of+prospect%22&l-availability=y&l-australian=y&l-state=South+Australia';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
     var keywords = '';
@@ -18,7 +18,7 @@ $(function(){
     var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
     // var byline = '';
     // Add a tagline
-    var tagline = 'How well do you know your Australian history?';
+    var tagline = 'How well do you know your area?';
     // Leave this alone unless you're publishing on a non-https server
     var useHttps = 'true';
 
